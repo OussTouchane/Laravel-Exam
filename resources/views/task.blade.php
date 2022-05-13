@@ -13,7 +13,7 @@
 			<div class="card-content">
 				<div class="content">
 					<p>{{ $task->description }}</p>
-					<p>  Creation Date : {{ $task->created_at->format('jS \\of F Y') }}</p>
+					<p>  Date de création : {{ $task->created_at->format('jS \\of F Y') }}</p>
 					<div class="card-footer">
 					<a href="/" class="card-footer-item">Revenir au Tâche </a>
 					<button class="delete">
